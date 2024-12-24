@@ -1,4 +1,3 @@
-```markdown:README.md
 # Applitools Playwright Visual Testing Framework
 
 ## Overview

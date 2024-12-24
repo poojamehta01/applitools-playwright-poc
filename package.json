@@ -1,0 +1,19 @@
+{
+  "name": "applitools-playwright-poc",
+  "version": "1.0.0",
+  "description": "POC for visual testing with Applitools and Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:visual": "playwright test tests/visual/",
+    "test:debug": "PWDEBUG=1 playwright test tests/visual/"
+  },
+  "dependencies": {
+    "@applitools/eyes-playwright": "^1.17.0",
+    "@playwright/test": "^1.40.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
